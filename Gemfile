@@ -1,2 +1,2 @@
 source :rubygems
-gem "minima"
+gem "jekyll-theme-minimal"
