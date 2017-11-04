@@ -1,1 +1,7 @@
+# Site Settings
+title: Deepali Adlakha
+email: dadlakha0111@gmail.com
+description: Personal website
+baseurl: ""
+url: "https://deepaliadlakha.github.io/index.html"
 theme: jekyll-theme-minimal
