@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+  <head>
+        <meta charset="">
+    <meta http-equiv="X-UA-Compatible" content="">
+
+    <title>Research</title>
+    <meta name="description" content="Description of Past and Current Research Interests">
+    <meta name="author" content="Nilesh Kulkarni">
+
+    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="">
+
+          <!-- Place favicon.ico & apple-touch-icon.png
+           in the root of your domain and delete these references -->
+      <!--<link rel="shortcut icon" href="media/favicon.ico">
+      <link rel="apple-touch-icon" href="media/apple-touch-icon.png">
+      -->
+          <!--<link rel="stylesheet" href="https://github.com/themes/minimal/stylesheets/styles.css">-->
+      <link rel="stylesheet" href="media/js/styles.css">
+      <style>
+        header { zoom: 1.2; }
+        header h1 { margin-bottom: 5px; }
+        header h1 a { color: #494949; font-weight: bold; }
+        header h3 { margin-top: 20px; margin-bottom: 5px; }
+        header p.view { margin-bottom: 5px; }
+        header p.view small { padding-top: 2px; }
+        header ul {
+          zoom: 0.7;
+          margin-top: 25px;
+        }
+        section p { margin-top: 10px; }
+        section h1 { margin-bottom: 15px; }
+        section h2 { margin-bottom: 10px; }
+        section h2 { margin-bottom: 10px; }
+        footer { bottom: 20px; }
+        footer p { margin-bottom: 5px; }
+        .half-width {
+          float: left;
+          width: 200px;
+          list-style: none;
+          padding: 5px;
+          margin: 7px;
+          margin-bottom: 10px;
+        }
+        .half-width h4 {
+          margin-bottom: 5px;
+        }
+        .half-width ul {
+          padding-left: 0;
+        }
+        .half-width ul li {
+          list-style: inside;
+          font-size: 15px;
+        }
+        .clear-fix {
+          clear: both;
+        }
+      </style>
+      <!--<script src="https://github.com/themes/minimal/javascripts/scale.fix.js"></script>-->
+      <script src="media/js/scale.fix.js"></script>
+      </head> 
+
+  <body id="research">
+
+          <div class="wrapper">
+
+                <header>
+
+                            <h1><a href="http://nileshkulkarni.github.io/">Nilesh Kulkarni</a></h1>
+            
+                            <br>  
+                <p class="view"><a href="research.html">Research</a></p>
+                <p class="view"><a href="industry.html">Industry Experience</a></p>
+                <p class="view"><a href="bio.html">Personal<small>All about me </small></a></p>
+                <p class="view"><a href="projects.html">Projects<small>useful code</small></a></p>
+                <p class="view"><a href="contact.html">Contact<small>my contact details</small></a></p>
+                        
+                            <h3>On the Web</h3>
+                <p class="view"><a href="http://github.com/nileshkulkarni" target="tab">GitHub</a></p>
+                <!--<p class="view"><a href="https://bitbucket.org/ajdawson" target="tab">Bitbucket</a></p> -->
+                <!-- <p class="view"><a href="http://www2.physics.ox.ac.uk/contacts/people/dawson">Oxford Physics Profile</a></p> -->
+            
+          </header>
+          <section id="main">
+
+            <h1>Research</h1>
+<hr/>
+
+<h2>Undergraduate Dissertation: Distributed Linear Programming Boost</h2>
+<h4> Guide : <a href="https://www.cse.iitb.ac.in/~ganesh/"> Prof. Ganesh Ramakrishnan </a> </h4>
+<p align="justify">
+My thesis involved developing a parallel version for the LPBoost algorithm. The method involves two independent paradigms, data parallelization and hypothesis space parallelization. The formulation for the distributed Master problem was done using Alternating Direction Method of Multipliers (ADMM). This allowed us to dis-entangle various variables in the joint optimization problem. The solution has a single master - multiple slave architecture. The slaves are required to solve the local optimization on the hypothesis/data space independently. Achieved consensus at the master propagating necessary penalties to the slaves. It is implemented in Akka
+<br>
+</p>
+<p>
+<h4> <a href="btp/report.pdf">Report </a> |  <a href="btp/slides.pdf"> Slides </a></h4> 
+</p>
+<h2>Undergradutate Research Project</h2>
+<h4> Guide :<a href="https://www.cse.iitb.ac.in/~suyash/"> Prof. Suyash Awate </a></h4>
+<p align="justify"> 
+Developed KPNS which is a kernel space statistical procedure. It is used to transform set of observations to independent un-correlated spaces called Principal Spheres. We achieve better performance on Model compactness, Dimensionality reduction , Data Classification [v.s standard methods]. The method derives its benefits from the unit norm kernel. The data lies on an unit hyper-sphere, implying a natural directional sense along the curved spherical surface.
+</p>
+<p>
+<a href ="rnd/kpns.pdf">Robust Kernel Principal Nested Spheres </a> <br> Suyash P. Awate*, Manik Dhar*, <b> Nilesh Kulkarni* </b> <br> Published @ International Confernce on Pattern Recognition (ICPR), Cancun, 2016
+<br>
+*Equal contribution by all authors
+</p>
+
+<h2>Research and Development of AUV</h2>
+<h4> Guide : <a href="http://www.sc.iitb.ac.in/~leena/">Prof. Leena Vachhani</a>, <a href="http://www.aero.iitb.ac.in/~arya/">Prof. Hemandra Arya </a>  </h4>
+<p align="justify">
+AUV-IITB is an all student team working on the design and development of an AUV; An autonomous underwater vehicle capable of navigating and performing pre-defined tasks based on the feedback from cameras, IMU (Inertial Measurement Unit), pressure sensor and Doppler Velocity Log. Matsya series of AUVs compete at the world's largest Underwater Robotics Competition, Robosub, conducted by the AUVSI Foundation in Association with US Office of Naval Research. The team has been consitently reaching the semifinals
+of the competition since the past three years 2012, 2013 & 2014
+</p>
+<ul>
+<p align="justify">
+<li><b>Team Leader, 2014</b>
+Leading a 40 member team comprising of three divisions: Electronics,
+Software & Mechanical. Managing operations, logistics, recruitments and knowledge
+transfer in a four-tier cross functional team. Leading projects with Naval Research
+Board, Defense and Research Organization, India </li>.  
+<li> <b>Software Lead, 2013</b>
+Leading a sub-division of 5 members. Involved in development of full system stack to ensure fail-proof mission execution</ul>
+</p>
+</ul>
+<p> <a href="auv/technical-paper.pdf">  Research and Development of Matsya 4.0, Autonomous Underwater Vehicle </a> <br>
+<b> Nilesh Kulkarni </b>, et al.
+<br>
+<a href ="http://www.auv-iitb.org"> Website </a> </p>
+
+<h2>Approximate algorithms for exploration using a swarm of robots</h2>
+<i>Intern @ Algorithms group, Technische Universitat, Braunschweig, Germany</i>
+<h4> Guide : <a href="https://www.ibr.cs.tu-bs.de/users/fekete/">Prof. Sandor Fekete </a></h4>
+<p align="justify">
+Researched on problems for unknown area exploration using a robot swarm. I worked on an Approximate algorithms and minimized overall error in navigation and localization with given minimum sensing capabilities of the robots
+<br>
+</p>
+          </section>
+
+                      <footer>
+              <p><small>Built with <a href="http://hyde.github.io/">Hyde</a> &mdash;
+                        Layout adapted from <a href="https://github.com/orderedlist">orderedlist</a>.</small></p>
+            </footer>
+
+          
+        
+      </div>
+
+    
+  </body>
+
+</html>
