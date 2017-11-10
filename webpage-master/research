@@ -1,0 +1,66 @@
+# jemdoc: addcss{person.css}, menu{MENU}{research.html}, nofooter, analytics{UA-54294911-1}
+= Vipul Venkataraman---Research
+
+== Interests
+- Optimizing Crowd Algorithms
+- Data Mining \&cap; Machine Learning
+- Database Theory
+
+== Publications
+
+- Scaling up to Billions of Cells with DataSpread: Supporting Large Spreadsheets with Databases\nMangesh Bendre, Vipul Venkataraman, Xinyan Zhou, Kevin Chen-Chuan Chang, Aditya Parameswaran\nTechnical Report. 2016.\n[http://data-people.cs.illinois.edu/dataspread.pdf \[pre-print\]]
+- Optimizing Open-Ended Crowdsourcing: The Next Frontier in Crowdsourced Data Management\nAditya Parameswaran, Akash Das Sarma, Vipul Venkataraman\n IEEE
+Data Engineering Bulletin, Issue on Human-in-the-loop Data Management. 2016.\n[https://arxiv.org/abs/1610.05377 \[paper\]]
+
+== Theses
+
+=== Master's Thesis
+- DataSpread: Scaling Spreadsheets using Relational Databases\nAdvisor: [http://web.engr.illinois.edu/~adityagp/ Prof. Aditya Parameswaran]\n[http://web.engr.illinois.edu/~vvnktrm2/research/ms-thesis.pdf \[thesis\]]
+
+=== Bachelor's Thesis
+- Incremental Query Optimization\nAdvisor: [http://www.cse.iitb.ac.in/~sudarsha/ Prof. S. Sudarshan]\n[http://web.engr.illinois.edu/~vvnktrm2/research/btech-thesis.pdf \[thesis\]]
+
+
+== Research @ UIUC
+
+=== Optimizing Crowd Algorithms
+
+- Crowdsourced Transcription\nGuides: [http://web.engr.illinois.edu/~adityagp/ Prof. Aditya Parameswaran], [http://web.engr.illinois.edu/~jianpeng/ Prof. Jian Peng]\n[https://github.com/populace-org/transcriptions \[code\]]
+- Crowd-Powered Cancer Diagnosis\nGuides: [http://web.engr.illinois.edu/~adityagp/ Prof. Aditya Parameswaran], [http://web.engr.illinois.edu/~jianpeng/ Prof. Jian Peng]\n[http://vvnktrm2.web.engr.illinois.edu/research/crowd-cancer/report.pdf \[report\]]
+
+=== Data Mining \&cap; Machine Learning
+
+- Relationship Prediction in Heterogeneous Networks\nGuides: [http://www.meng-jiang.com/ Dr. Meng Jiang], [http://hanj.cs.illinois.edu/ Prof. Jiawei Han]\n[http://vvnktrm2.web.engr.illinois.edu/projects/advdm-slides.pdf \[slides\]]
+
+=== Database Theory
+
+- Indexing Bitmaps\nGuide: [http://web.engr.illinois.edu/~adityagp/ Prof. Aditya Parameswaran]\n[http://vvnktrm2.web.engr.illinois.edu/research/bitmaps.pdf \[report\]]
+- DataSpread: Handling Large Spreadsheets\nGuides: [http://web.engr.illinois.edu/~adityagp/ Prof. Aditya Parameswaran], [http://www.forwarddatalab.org/kevinchang Prof. Kevin Chang]\n[http://vvnktrm2.web.engr.illinois.edu/research/dataspread/report.pdf \[report\]]
+
+
+== Research @ IIT Bombay
+
+=== Database Systems
+
+- Incremental Query Optimization\nUndergraduate Thesis\nGuide: [http://www.cse.iitb.ac.in/~sudarsha/ Prof. S. Sudarshan]\n[http://web.engr.illinois.edu/~vvnktrm2/talks/iqo.pdf \[slides\]]
+	-- Worked on adaptive query optimization techniques that can automatically re-plan queries
+	-- Developed an incremental search algorithm, that efficiently prunes the exponential search space of equivalent queries using PyroJ, a top-down Query Optimizer
+
+=== Distributed Systems Theory
+
+- Synthesis Modulo Bisimulation\nUndergraduate Research Project\nGuides: [adsul@cse.iitb.ac.in Prof. Bharat Adsul], [http://www.cmi.ac.in/~madhavan/ Prof. Madhavan Mukund]\n[http://web.engr.illinois.edu/~vvnktrm2/research/bisimulation-report.pdf \[report\]]
+	-- Analyzed synthesizing distributed implementations from global specifications in systems
+	-- Gathered evidence that the collapse in the state space in the bisimulation quotient of a distributed transition system can be quantified
+
+== Curriculum Vitae
+Please find my Curriculum Vitae [http://web.engr.illinois.edu/~vvnktrm2/cv.pdf here]. Feel free to [vipul.venkataraman@gmail.com email] me for any details.
+
+== Talks
+- Nov 2016, UIUC, Multi-Prediction Deep Boltzmann Machines, [http://web.engr.illinois.edu/~vvnktrm2/talks/mp-dbm-slides.pdf \[slides\]]
+- May 2016, BloomReach, Attribute Discovery At Scale, \[slides-redacted\]
+- May 2016, UIUC, Embedding Similarity aided Relationship Prediction in Heterogeneous Networks, [http://web.engr.illinois.edu/~vvnktrm2/talks/advdm-slides.pdf \[slides\]]
+- Sep 2015, UIUC, Dynamic Max Discovery with the Crowd, [http://web.engr.illinois.edu/~vvnktrm2/talks/sww.pdf \[slides\]]
+- May 2015, IIT Bombay, Incremental Query Optimization, [http://web.engr.illinois.edu/~vvnktrm2/talks/iqo.pdf \[slides\]]
+- July 2014, Microsoft Research, Efficient Sampling for Probabilistic Programs, [http://web.engr.illinois.edu/~vvnktrm2/talks/msr.pdf \[slides\]]
+- May 2014, IIT Bombay, Hopfield Networks and Applications, [http://web.engr.illinois.edu/~vvnktrm2/talks/hopfield.pdf \[slides\]]
+- Nov 2013, IIT Bombay, Sketch based Algorithms in Machine Learning, [http://web.engr.illinois.edu/~vvnktrm2/talks/sketch.pdf \[slides\]]

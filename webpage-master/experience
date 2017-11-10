@@ -1,0 +1,55 @@
+# jemdoc: addcss{person.css}, menu{MENU}{experience.html}, nofooter, analytics{UA-54294911-1}
+= Vipul Venkataraman---Experience
+
+== Internships
+
+=== BloomReach
+
+Topic: Automated Entity Linking and Attribute Boosting at Scale\n\[slides-redacted\]
+
+- Developed scalable methods for automated entity linking and attribute boosting using semi-structured and unstructured product data from e-commerce sites
+- Boosted the size of the attribute dictionary by 3.8 times via ontology propagation
+
+=== Microsoft Research Bangalore
+Topic: Efficient Sampling for Probabilistic Programs\n
+Guide: [http://www.research.microsoft.com/en-us/people/adityan/ Dr. Aditya Nori]\n
+[http://web.engr.illinois.edu/~vvnktrm2/talks/msr.pdf \[slides\]]
+
+- Modified the Hamiltonian Monte Carlo Sampling technique using program analysis
+- Improved inference efficiency, in Microsoft's inference tool [http://research.microsoft.com/en-us/projects/r2/ R2]; bettered Church, Venture and Infer.net with shorter execution time in various benchmarks 
+
+=== Technische Universitat Braunschweig
+Topic: VC Dimension of Art Gallery Problems\n
+Guide: [https://www.ibr.cs.tu-bs.de/users/fekete/ Prof. Sandor Fekete]\n
+[http://vvnktrm2.web.engr.illinois.edu/research/tub.pdf \[feedback-letter\]]
+
+- Analyzed arrangements of point sets within polygons and their straight line visibility
+- Worked on the case of polygons without holes; proved the VC dimension of a symmetric gallery without holes as six, the current best lower bound 
+
+=== The Institute of Mathematical Sciences
+
+Topic: Block Sorting\nGuide: [http://www.imsc.res.in/~meena/ Prof. Meena Mahajan]
+
+- Worked on the problem of block sorting, in the context of genome rearrangements
+- Explored new possibilities of improving the current best upper bound of 2n/3 moves for block sorting; developed alternate methods to achieve the same bound
+
+== Summer School
+
+=== Microsoft Research Bangalore
+Topic: Machine Learning Applications in Big Data
+
+- Attended a summer school on topics such as logistic regression, support vector machines, decision trees, principal component analysis, probabilistic topic models
+- Secured 2/50 in the Microsoft Azure ML Hackathon among summer school participants
+
+
+== Teaching Assistantships
+
+=== Database Systems
+: {Spring 2017}
+
+=== Database Systems
+: {Spring 2016}
+
+=== Introduction to Computer Science
+: {Fall 2015}
+: {Honor\: Excellent Teaching Assistant Award}

@@ -1,153 +1,107 @@
-<!doctype html>
-<html>
-  <head>
-        <meta charset="">
-    <meta http-equiv="X-UA-Compatible" content="">
-
-    <title>Research</title>
-    <meta name="description" content="Description of Past and Current Research Interests">
-    <meta name="author" content="Nilesh Kulkarni">
-
-    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
-    <meta name="viewport" content="">
-
-          <!-- Place favicon.ico & apple-touch-icon.png
-           in the root of your domain and delete these references -->
-      <!--<link rel="shortcut icon" href="media/favicon.ico">
-      <link rel="apple-touch-icon" href="media/apple-touch-icon.png">
-      -->
-          <!--<link rel="stylesheet" href="https://github.com/themes/minimal/stylesheets/styles.css">-->
-      <link rel="stylesheet" href="media/js/styles.css">
-      <style>
-        header { zoom: 1.2; }
-        header h1 { margin-bottom: 5px; }
-        header h1 a { color: #494949; font-weight: bold; }
-        header h3 { margin-top: 20px; margin-bottom: 5px; }
-        header p.view { margin-bottom: 5px; }
-        header p.view small { padding-top: 2px; }
-        header ul {
-          zoom: 0.7;
-          margin-top: 25px;
-        }
-        section p { margin-top: 10px; }
-        section h1 { margin-bottom: 15px; }
-        section h2 { margin-bottom: 10px; }
-        section h2 { margin-bottom: 10px; }
-        footer { bottom: 20px; }
-        footer p { margin-bottom: 5px; }
-        .half-width {
-          float: left;
-          width: 200px;
-          list-style: none;
-          padding: 5px;
-          margin: 7px;
-          margin-bottom: 10px;
-        }
-        .half-width h4 {
-          margin-bottom: 5px;
-        }
-        .half-width ul {
-          padding-left: 0;
-        }
-        .half-width ul li {
-          list-style: inside;
-          font-size: 15px;
-        }
-        .clear-fix {
-          clear: both;
-        }
-      </style>
-      <!--<script src="https://github.com/themes/minimal/javascripts/scale.fix.js"></script>-->
-      <script src="media/js/scale.fix.js"></script>
-      </head> 
-
-  <body id="research">
-
-          <div class="wrapper">
-
-                <header>
-
-                            <h1><a href="http://nileshkulkarni.github.io/">Nilesh Kulkarni</a></h1>
-            
-                            <br>  
-                <p class="view"><a href="research.html">Research</a></p>
-                <p class="view"><a href="industry.html">Industry Experience</a></p>
-                <p class="view"><a href="bio.html">Personal<small>All about me </small></a></p>
-                <p class="view"><a href="projects.html">Projects<small>useful code</small></a></p>
-                <p class="view"><a href="contact.html">Contact<small>my contact details</small></a></p>
-                        
-                            <h3>On the Web</h3>
-                <p class="view"><a href="http://github.com/nileshkulkarni" target="tab">GitHub</a></p>
-                <!--<p class="view"><a href="https://bitbucket.org/ajdawson" target="tab">Bitbucket</a></p> -->
-                <!-- <p class="view"><a href="http://www2.physics.ox.ac.uk/contacts/people/dawson">Oxford Physics Profile</a></p> -->
-            
-          </header>
-          <section id="main">
-
-            <h1>Research</h1>
-<hr/>
-
-<h2>Undergraduate Dissertation: Distributed Linear Programming Boost</h2>
-<h4> Guide : <a href="https://www.cse.iitb.ac.in/~ganesh/"> Prof. Ganesh Ramakrishnan </a> </h4>
-<p align="justify">
-My thesis involved developing a parallel version for the LPBoost algorithm. The method involves two independent paradigms, data parallelization and hypothesis space parallelization. The formulation for the distributed Master problem was done using Alternating Direction Method of Multipliers (ADMM). This allowed us to dis-entangle various variables in the joint optimization problem. The solution has a single master - multiple slave architecture. The slaves are required to solve the local optimization on the hypothesis/data space independently. Achieved consensus at the master propagating necessary penalties to the slaves. It is implemented in Akka
-<br>
-</p>
-<p>
-<h4> <a href="btp/report.pdf">Report </a> |  <a href="btp/slides.pdf"> Slides </a></h4> 
-</p>
-<h2>Undergradutate Research Project</h2>
-<h4> Guide :<a href="https://www.cse.iitb.ac.in/~suyash/"> Prof. Suyash Awate </a></h4>
-<p align="justify"> 
-Developed KPNS which is a kernel space statistical procedure. It is used to transform set of observations to independent un-correlated spaces called Principal Spheres. We achieve better performance on Model compactness, Dimensionality reduction , Data Classification [v.s standard methods]. The method derives its benefits from the unit norm kernel. The data lies on an unit hyper-sphere, implying a natural directional sense along the curved spherical surface.
-</p>
-<p>
-<a href ="rnd/kpns.pdf">Robust Kernel Principal Nested Spheres </a> <br> Suyash P. Awate*, Manik Dhar*, <b> Nilesh Kulkarni* </b> <br> Published @ International Confernce on Pattern Recognition (ICPR), Cancun, 2016
-<br>
-*Equal contribution by all authors
-</p>
-
-<h2>Research and Development of AUV</h2>
-<h4> Guide : <a href="http://www.sc.iitb.ac.in/~leena/">Prof. Leena Vachhani</a>, <a href="http://www.aero.iitb.ac.in/~arya/">Prof. Hemandra Arya </a>  </h4>
-<p align="justify">
-AUV-IITB is an all student team working on the design and development of an AUV; An autonomous underwater vehicle capable of navigating and performing pre-defined tasks based on the feedback from cameras, IMU (Inertial Measurement Unit), pressure sensor and Doppler Velocity Log. Matsya series of AUVs compete at the world's largest Underwater Robotics Competition, Robosub, conducted by the AUVSI Foundation in Association with US Office of Naval Research. The team has been consitently reaching the semifinals
-of the competition since the past three years 2012, 2013 & 2014
-</p>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="person.css" type="text/css" />
+<title>Deepali Adlakha&#8201;&mdash;&#8201;Research</title>
+</head>
+<body>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-54294911-1");
+    pageTracker._trackPageview();
+} catch(err) {}</script>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Deepali Adlakha</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="biography.html">Biography</a></div>
+<div class="menu-category">Academic</div>
+<div class="menu-item"><a href="research.html" class="current">Research</a></div>
+<div class="menu-item"><a href="experience.html">Industry&nbsp;Experience</a></div>
+<div class="menu-item"><a href="projects.html">Projects</a></div>
+<div class="menu-item"><a href="courses.html">Courses</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Deepali Adlakha&#8201;&mdash;&#8201;Research</h1>
+</div>
+<h2>Interests</h2>
 <ul>
-<p align="justify">
-<li><b>Team Leader, 2014</b>
-Leading a 40 member team comprising of three divisions: Electronics,
-Software & Mechanical. Managing operations, logistics, recruitments and knowledge
-transfer in a four-tier cross functional team. Leading projects with Naval Research
-Board, Defense and Research Organization, India </li>.  
-<li> <b>Software Lead, 2013</b>
-Leading a sub-division of 5 members. Involved in development of full system stack to ensure fail-proof mission execution</ul>
-</p>
+<li><p>Systems &cap; Machine Learning</p>
+</li>
+<li><p>Computer Vision</p>
+</li>
+<li><p>Image Processing</p>
+</li>
 </ul>
-<p> <a href="auv/technical-paper.pdf">  Research and Development of Matsya 4.0, Autonomous Underwater Vehicle </a> <br>
-<b> Nilesh Kulkarni </b>, et al.
-<br>
-<a href ="http://www.auv-iitb.org"> Website </a> </p>
+<h2>Publications</h2>
+<ul>
+<li><p>Regularized Dictionary Learning with Robust Sparsity Fitting for Compressed Sensing Multishell HARDI<br />Kratika Gupta, Deepali Adlakha, Vishal Agarwal, Suyash P. Awate, Aditya Parameswaran<br />MICCAI 2016.<br /><a href="https://link.springer.com/chapter/10.1007/978-3-319-54130-3_3">[paper]</a></p>
+</li>
+</ul>
+<h2>Theses</h2>
+<h3>Bachelor's Thesis</h3>
+<ul>
+<li><p>Dictionary Learning for Sparse Image Modelling and Analysis<br />Advisor: <a href="http://www.cse.iitb.ac.in/~suyash/">Prof. Suyash Awate</a><br /><a href="https://github.com/deepaliadlakha/btp/blob/master/Deepali_BTP_Report2.pdf">[thesis]</a></p>
+</li>
+</ul>
+<h2>Research</h2>
+<h3>Machine Learning</h3>
+<ul>
+<li><p>Dictionary Learning for Sparse Image Modelling and Analysis<br />Undergraduate Thesis, IIT Bombay<br />Guide: <a href="http://www.cse.iitb.ac.in/~suyash/">Prof. Suyash Awate</a><br /><a href="https://github.com/deepaliadlakha/btp/blob/master/Deepali_BTP_Report2.pdf">[report]</a><a href="https://github.com/deepaliadlakha/DictionaryAlgorithm">[code]</a></p>
+<ul>
+<li><p>Explored and implemented algorithms for dictionary learning formulated as sparse-regression/L1-optimization problems in Euclidean or non Euclidean spaces</p>
+</li>
+<li><p>Worked on applications of sparse coding using the learned dictionary for image analysis</p>
+</li>
+</ul>
 
-<h2>Approximate algorithms for exploration using a swarm of robots</h2>
-<i>Intern @ Algorithms group, Technische Universitat, Braunschweig, Germany</i>
-<h4> Guide : <a href="https://www.ibr.cs.tu-bs.de/users/fekete/">Prof. Sandor Fekete </a></h4>
-<p align="justify">
-Researched on problems for unknown area exploration using a robot swarm. I worked on an Approximate algorithms and minimized overall error in navigation and localization with given minimum sensing capabilities of the robots
-<br>
-</p>
-          </section>
+</li>
+</ul>
+<h3>Augmented Reality</h3>
+<ul>
+<li><p>Real Time Object Tracking in a Dynamic Environment<br />Microsoft Research, Redmond<br />Mentor: <a href="https://www.microsoft.com/en-us/research/people/eyalofek/">Eyal Ofek</a></p>
+<ul>
+<li><p>Formulated real time tracking of a hand held device in a 3D space using Kinect; recovered the position and orientation of the device based on random sample consensus for parameter estimation</p>
+</li>
+<li><p>Ensured robustness of the system through integration with optical flow and orientation sensor measurements</p>
+</li>
+</ul>
 
-                      <footer>
-              <p><small>Built with <a href="http://hyde.github.io/">Hyde</a> &mdash;
-                        Layout adapted from <a href="https://github.com/orderedlist">orderedlist</a>.</small></p>
-            </footer>
+</li>
+</ul>
+<h3>Systems</h3>
+<ul>
+<li><p>Energy Efficiency in Wireless Sensor Nodes<br />Technical University, Braunschweig, Germany<br />Mentor: <a href="https://www.ibr.cs.tu-bs.de/users/wolf/">Dr. Lars Wolf</a><br /><a href="https://github.com/deepaliadlakha/tub-internship">[code]</a></p>
+<ul>
+<li><p>Designed and implemented a self learning and adaptive algorithm to under-volt the main micro-controller of wireless sensor node for improving energy efficiency</p>
+</li>
+<li><p>Formulated an Inter Integrated Circuit (I2C) protocol based on closed loop control with a secure and reliable instance in order to achieve a balanced state between faultless execution and optimum power dissipation</p>
+</li>
+</ul>
 
-          
-        
-      </div>
-
-    
-  </body>
-
+</li>
+</ul>
+<h2>Talks</h2>
+<ul>
+<li><p>May 2015, IIT Bombay, Dictionary Learning for Sparse Image Modelling and Analysis, <a href="https://github.com/deepaliadlakha/btp/blob/master/Deepali_BTP_Report2.pdf">[slides]</a></p>
+</li>
+<li><p>Nov 2014, IIT Bombay, On the Relation between Universality, Characteristic Kernels and RKHS Embedding of Measures, <a href="https://github.com/deepaliadlakha/projects/blob/master/MachineLearning.pdf">[slides]</a></p>
+</li>
+<li><p>May 2014, IIT Bombay, Swarm Intelligence, <a href="https://github.com/deepaliadlakha/projects/blob/master/SwarmIntelligence.pdf">[slides]</a></p>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</body>
 </html>
