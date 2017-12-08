@@ -25,7 +25,7 @@ Guide: Prof. S. Sudarshan\n[https://github.com/deepaliadlakha/projects/blob/mast
 === Texture Classification using Textons
 Guide: Prof. Suyash Awate, Prof. Ajit Rajwade\n[https://github.com/deepaliadlakha/projects/blob/master/TextureClassification.pdf \[report\]] [https://github.com/Tanmay-r/Digital-Image-Processing/tree/master/Project \[code\]]
 - Implemented framework for characterising a texture by its responses to a set of orientation and spatial-frequency selective linear filters; clustered these responses into a bunch of textons and modelled using SVM
-- Explored the application of \textbf{texture classification} in image categorization and segmentation
+- Explored the application of texture classification in image categorization and segmentation
 
 == Spring 2014
 

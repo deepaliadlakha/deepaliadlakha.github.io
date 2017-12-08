@@ -13,19 +13,19 @@
 == Theses
 
 === Bachelor's Thesis
-- Dictionary Learning for Sparse Image Modelling and Analysis\nAdvisor: [http://www.cse.iitb.ac.in/~suyash/ Prof. Suyash Awate]\n[https://github.com/deepaliadlakha/btp/blob/master/Deepali_BTP_Report2.pdf \[thesis\]]
+- Dictionary Learning Algorithms and Applications\nAdvisor: [http://www.cse.iitb.ac.in/~suyash/ Prof. Suyash Awate]\n[https://github.com/deepaliadlakha/btp/blob/master/Deepali_BTP_Report2.pdf \[thesis\]]
 
 == Research
 
 === Machine Learning
-- Dictionary Learning for Sparse Image Modelling and Analysis\nUndergraduate Thesis, IIT Bombay\nGuide: [http://www.cse.iitb.ac.in/~suyash/ Prof. Suyash Awate]\n[https://github.com/deepaliadlakha/btp/blob/master/Deepali_BTP_Report2.pdf \[report\]][https://github.com/deepaliadlakha/DictionaryAlgorithm \[code\]]
+- Dictionary Learning Algorithms and Applications\nBachelor Thesis, IIT Bombay\nGuide: [http://www.cse.iitb.ac.in/~suyash/ Prof. Suyash Awate]\n[https://github.com/deepaliadlakha/btp/blob/master/Deepali_BTP_Report2.pdf \[report\]][https://github.com/deepaliadlakha/DictionaryAlgorithm \[code\]]
 	-- Explored and implemented algorithms for dictionary learning formulated as sparse-regression/L1-optimization problems in Euclidean or non Euclidean spaces
 	-- Worked on applications of sparse coding using the learned dictionary for image analysis
 
 
 === Augmented Reality
-- Real Time Object Tracking in a Dynamic Environment\nMicrosoft Research, Redmond\nMentor: [https://www.microsoft.com/en-us/research/people/eyalofek/ Eyal Ofek]
-	-- Formulated real time tracking of a hand held device in a 3D space using Kinect; recovered the position and orientation of the device based on random sample consensus for parameter estimation
+- Object Orientation Detection in Augmented Reality Applications\nMicrosoft Research, Redmond\nMentor: [https://www.microsoft.com/en-us/research/people/eyalofek/ Eyal Ofek]
+	-- Formulated real-time tracking of a hand held device in 3D space using Kinect; recovered the location and orientation of the device based on random sample consensus for parameter estimation
 	-- Ensured robustness of the system through integration with optical flow and orientation sensor measurements
 
 === Systems
@@ -33,7 +33,10 @@
 	-- Designed and implemented a self learning and adaptive algorithm to under-volt the main micro-controller of wireless sensor node for improving energy efficiency
 	-- Formulated an Inter Integrated Circuit (I2C) protocol based on closed loop control with a secure and reliable instance in order to achieve a balanced state between faultless execution and optimum power dissipation
 
+== Curriculum Vitae
+	Please find my Curriculum Vitae [https://github.com/deepaliadlakha/cv/blob/master/cv.pdf here]. Feel free to [dadlakha0111@gmail.com email] me for any details.
+
 == Talks
-- May 2015, IIT Bombay, Dictionary Learning for Sparse Image Modelling and Analysis, [https://github.com/deepaliadlakha/btp/blob/master/Deepali_BTP_Report2.pdf \[slides\]]
+- May 2015, IIT Bombay, Dictionary Learning Algorithms and Applications
 - Nov 2014, IIT Bombay, On the Relation between Universality, Characteristic Kernels and RKHS Embedding of Measures, [https://github.com/deepaliadlakha/projects/blob/master/MachineLearning.pdf \[slides\]]
 - May 2014, IIT Bombay, Swarm Intelligence, [https://github.com/deepaliadlakha/projects/blob/master/SwarmIntelligence.pdf \[slides\]]
