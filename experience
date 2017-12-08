@@ -1,25 +1,34 @@
 # jemdoc: addcss{person.css}, menu{MENU}{experience.html}, nofooter, analytics{UA-54294911-1}
-= Deepali Adlakha---Industry Experience
+= Deepali Adlakha---Industry Experience at Facebook
 
-== Facebook
+== Technical Roles
 
-=== Video Monetization, Core App Monetization
+=== Senior Software Engineer, Video Monetization
 
 Manager: Zhuowei Bao\n
 Location: Menlo Park
 
-- Team's mission is to build monetization products to fund the livelihoods of a thriving Facebook video creator ecosystem
-- Currently working as the Tech Lead on Advertiser Demand for Ad Breaks
+- Team's mission is to build monetization products to fund livelihoods of a thriving Facebook video creator ecosystem
+- Currently working as the Tech Lead on Ad Breaks
 - Ad Breaks enables creators to monetize video watching experience on Facebook. We build controls to help advertisers place their ads inside videos on Facebook
-- Key projects that I have been working on - enabling advertisers to use our product, developing infrastructure for advertisers to control where their ads are placed and improving their buying experience
 
-
-=== Brand Solutions, Ads and Businesses
+=== Software Engineer, Brand Solutions
 
 Manager: Brian Rosenthal\n
 Location: London
 
 - Team's mission is to support brand advertisers on Facebook. Brand advertisers aim to improve their brand value through Facebook ads as opposed to expecting people to respond directly to their ads
-- Key projects that I worked on were - Offline Conversions and Creative Hub
+- Worked on Offline Conversions and Creative Hub
 - Offline Conversions helped advertisers target ads based on people's offline purchases
-- Creative Hub enabled creative agencies to create and play with mock ads before publishing their clients' ads on Facebook
+- Creative Hub enabled creative agencies to create and play with mock ads before publishing their client advertisers' ads on Facebook
+
+== Leadership Roles
+
+=== Intern Manager, Video Monetization
+Managed an intern who developed infrastructure to increase advertiser participation
+
+=== Boot-camp Mentor
+Responsible for mentoring 15 new employees to help them get on-board
+
+=== Ninja Interviewer
+Interview prospective employees to test their programming skills
